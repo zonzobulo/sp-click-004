@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  header {
+    height: 100px;
+    width: 100%;
+    background-color: #161618;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    img {
+      width: 65px;
+    }
+    svg {
+      fill: #fff;
+    }
+  }
+  .header-content {
+    margin: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
