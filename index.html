@@ -1,51 +1,145 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto SP Click</title>
-    <link rel="stylesheet" href="./assets/css/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+
+    <!-- CABEÇALHO  -->
     <header>
-        <div class="header-content">
-            <img src="./assets/images/sp-click-logo.png" alt="Logo do SP Click">
-            <div class="search">
-                <img src="assets/icons/search-icon.svg" alt="Pesquisar">
-                <input type="text" placeholder="Pesquisar...">
-            </div>
-            <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 24V21H36V24H0ZM0 13.5V10.5H36V13.5H0ZM0 3V0H36V3H0Z" fill="white"/>
-                </svg>
+      <div class="header-content">
+        <img src="./assets/images/sp-click-logo.png" alt="Logo do SP Click" />
+
+
+        <div class="search show-tablet">
+          <img src="assets/icons/search-icon.svg" alt="Pesquisar" />
+          <input type="text" placeholder="Pesquisar..." />
         </div>
-        <div class="menu-links">
-            <a class="close-icon" href="">
-                <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2.44998 28.099L0.349976 25.999L11.9 14.449L0.349976 2.89898L2.44998 0.798981L14 12.349L25.55 0.798981L27.65 2.89898L16.1 14.449L27.65 25.999L25.55 28.099L14 16.549L2.44998 28.099Z" fill="black"/>
-                    </svg>
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">O Projeto</a></li>
-                    <li><a href="#">Lugares Populares</a></li>
-                    <li><a href="#">Teatros</a></li>
-                    <li><a href="#">Turismo</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+        <a href="#" class="link-menu">
+          <svg
+            class="show-mobile"
+            width="36"
+            height="24"
+            viewBox="0 0 36 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 24V21H36V24H0ZM0 13.5V10.5H36V13.5H0ZM0 3V0H36V3H0Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+
+        <nav class="nav-desktop show-desktop">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">O Projeto</a></li>
+            <li><a href="#">Lugares Populares</a></li>
+            <li><a href="#">Teatros</a></li>
+            <li><a href="#">Turismo</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="menu-links">
+        <a class="close-icon" href="">
+          <svg
+            width="28"
+            height="29"
+            viewBox="0 0 28 29"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.44998 28.099L0.349976 25.999L11.9 14.449L0.349976 2.89898L2.44998 0.798981L14 12.349L25.55 0.798981L27.65 2.89898L16.1 14.449L27.65 25.999L25.55 28.099L14 16.549L2.44998 28.099Z"
+              fill="black"
+            />
+          </svg>
+        </a>
+
+        
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">O Projeto</a></li>
+            <li><a href="#">Lugares Populares</a></li>
+            <li><a href="#">Teatros</a></li>
+            <li><a href="#">Turismo</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section id="hero">
-        <div class="destak">
-            <div class="title">
-                <h1>Beco do Batman</h1>
-                <h2>Os grafites mais irados de SAMPA estão aqui</h2>
-            </div>
+      <div class="destak">
+        <div class="title">
+          <h1>Beco do Batman</h1>
+          <h2>Os grafites mais irados de SAMPA estão aqui</h2>
         </div>
+      </div>
     </section>
-    
-</body>
+
+    <!-- MAIN -->
+    <main>
+        <section class="popular-places">
+            <div class="section-title">
+                <h2>Lugares Populares</h2>
+                <h3>Museus, galerias, pontos turísticos, esportes, restaurantes, entre outros.</h3>
+            </div>
+
+            <div class="places">
+                <div class="individual-place">
+                    <div class="description">
+                        <div class="name">
+                            <img src="assets/icons/pin-icon.svg" alt="Ícone de pin">
+                            <h3>Theatro Municipal</h3>
+                        </div>
+
+                        <p>Projeto pelo arquiteto Ramos de Azevedo no estilo arquitetônico eclético, inspirado na Ópera de Paris e inaugurado em 1911.</p>
+                    </div>
+                </div>
+
+                <div class="individual-place">
+                    <div class="description">
+                        <div class="name">
+                            <img src="assets/icons/pin-icon.svg" alt="Ícone de pin">
+                            <h3>Neo Química Arena</h3>
+                        </div>
+
+                        <p>Estádio de futebol localizado no bairro de Itaquera, palco do jogo de abertura da Copa do Mundo de 2014.</p>
+                    </div>
+                </div>
+
+                <div class="individual-place">
+                    <div class="description">
+                        <div class="name">
+                            <img src="assets/icons/pin-icon.svg" alt="Ícone de pin">
+                            <h3>Jardim Botânico</h3>
+                        </div>
+
+                        <p>Fundado em 1928, o local tem o objetivo de mostrar o quanto a natureza é importante, e enfatizar cada vez mais o cuidado que se deve ter com a biodiversidade.</p>
+                    </div>
+                </div>
+
+                <div class="individual-place">
+                    <div class="description">
+                        <div class="name">
+                            <img src="assets/icons/pin-icon.svg" alt="Ícone de pin">
+                            <h3>Figueira Rubaiyat</h3>
+                        </div>
+
+                        <p>Restaurante icônico que foi construído em volta de uma árvore centenária e tombada pelo pratimônio cultural da cidade, que dá nome ao local.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+  </body>
 </html>
