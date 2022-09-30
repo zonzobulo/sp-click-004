@@ -1,25 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Lato";
-}
-body .show-desktop, body .show-tablet {
-  display: none;
-}
-body ul {
-  margin: 0;
-  padding: 0;
-}
-body ul li {
-  list-style: none;
-}
-body ul a {
-  text-decoration: none;
-  color: #fff;
+body a {
   cursor: pointer;
 }
 body header {
@@ -30,14 +9,14 @@ body header {
   background-color: #161618;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid #ccc;
-  z-index: 1;
+  border-bottom: 2px solid #CCC;
+  z-index: 3;
 }
 body header img {
   width: 65px;
 }
 body header svg {
-  fill: #fff;
+  fill: #FFF;
 }
 body .header-content {
   margin: 0 25px;
@@ -54,13 +33,13 @@ body .header-content .search input {
   height: 40px;
   background-color: rgba(255, 255, 255, 0.1882352941);
   border-radius: 20px;
-  color: #fff;
+  color: #FFF;
   outline: 0;
   border: none;
   padding: 0 50px;
 }
 body .header-content .search input::placeholder {
-  color: #fff;
+  color: #FFF;
   font-size: 1.1em;
 }
 body .header-content .search img {
@@ -76,7 +55,7 @@ body .menu-links {
   background-color: #c7c7cc;
   right: -300px;
   top: 0;
-  transition: all ease-in 0.5s;
+  transition: all ease-in 0.3s;
 }
 body .menu-links .close-icon {
   float: right;
@@ -88,7 +67,7 @@ body .menu-links ul {
   font-size: 20px;
 }
 body .menu-links ul li {
-  margin-top: 40px;
+  margin: 40px;
 }
 body .menu-links ul li a {
   color: #000;
@@ -97,18 +76,7 @@ body .menu-links.menu-open {
   right: 0;
 }
 
-@media (min-width: 768px) {
-  body .show-tablet {
-    display: block;
-  }
-}
 @media (min-width: 1200px) {
-  body .show-desktop {
-    display: block;
-  }
-  body .show-mobile {
-    display: none;
-  }
   body header .header-content .nav-desktop ul {
     display: flex;
   }
