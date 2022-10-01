@@ -25,6 +25,7 @@ main {
                     align-items: center;
                 }
                 &.active {
+                    transition: all 0.1s;
                     border-bottom: 1px solid #8d9035;
                     .icon {
                         background-color: #8d9035;
