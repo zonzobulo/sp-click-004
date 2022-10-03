@@ -34,7 +34,10 @@ section#hero {
   }
   .links {
     height: 100px;
+    width: 100%;;
     display: flex;
+    position: absolute;
+    bottom: 0;
     align-items: center;
     background-color: #131c2180;
     overflow: auto;
