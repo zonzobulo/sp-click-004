@@ -1,16 +1,15 @@
 section#hero {
   height: 100vh;
-  background-image: url("/assets/images/beco-do-batman.png");
+  background-image: url("/assets/images/beco-do-batman.webp");
   background-repeat: no-repeat;
   background-position: center center;
-  transition: all ease-in-out 0.5s;
 }
 section#hero::before {
   width: 100%;
   height: 100%;
   content: "";
   position: absolute;
-  color: #FFF;
+  color: #fff;
   background-image: linear-gradient(#161618, rgba(22, 22, 24, 0.5647058824));
 }
 section#hero .destak {
@@ -22,7 +21,7 @@ section#hero .destak {
   flex-direction: column;
 }
 section#hero .destak .title {
-  color: #FFF;
+  color: #fff;
   margin-top: 150px;
   text-align: center;
 }
@@ -34,8 +33,11 @@ section#hero .destak .title h2 {
   font-weight: lighter;
 }
 section#hero .links {
+  width: 100%;
   height: 100px;
   display: flex;
+  position: absolute;
+  bottom: 0;
   align-items: center;
   background-color: rgba(19, 28, 33, 0.5019607843);
   overflow: auto;
@@ -45,7 +47,7 @@ section#hero .links .link-item {
   height: 100%;
   display: flex;
   align-items: center;
-  color: #FFF;
+  color: #fff;
   min-width: 200px;
   cursor: pointer;
 }

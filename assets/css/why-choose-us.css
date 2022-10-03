@@ -27,7 +27,6 @@ main .why-choose-us .reasons .reason-item .icon {
   align-items: center;
 }
 main .why-choose-us .reasons .reason-item.active {
-  transition: all 0.1s;
   border-bottom: 1px solid #8d9035;
 }
 main .why-choose-us .reasons .reason-item.active .icon {

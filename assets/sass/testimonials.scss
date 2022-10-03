@@ -1,62 +1,62 @@
 main {
-  .testimonials {
-      padding: 50px 0;
-      .testimonial-item {
-          margin-top: 50px;
-          display: flex;
-          flex-direction: column;
-          img {
-              width: 300px;
-              height: 172px;
-              margin-top: 30px;
-          }
-          &.right {
-              text-align: right;
-          }
-      }
-      .testimonial-quote {
-          p {
-              padding-top: 20px;
-          }
-      }
-  }
+    .testimonials {
+        padding: 50px 0;
+        .testimonial-item {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            img {
+                max-width: 300px;
+                max-height: 172px;
+                margin-top: 30px;
+            }
+            &.right {
+                text-align: right;
+            }
+        }
+        .testimonial-quote {
+            p {
+                padding-top: 20px;
+            }
+        }
+    }
 }
 
 @media (min-width: 768px) {
-  main {
-      .testimonials {
-          .testimonial-item {
-              flex-direction: row;
-              img {
-                  width: 350px;
-                  height: 201px;
-                  margin-top: 0;
-                  margin-left: 50px;
-              }
-              p {
-                  font-size: 1.3em;
-              }
-              &.right {
-                  flex-direction: row-reverse;
-                  img {
-                      margin-right: 50px;
-                      margin-left: unset;
-                  }
-              }
-          }
-      }
-  }
+    main {
+        .testimonials {
+            .testimonial-item {
+                flex-direction: row;
+                img {
+                    max-width: 350px;
+                    max-height: 201px;
+                    margin-top: 0;
+                    margin-left: 50px;
+                }
+                p {
+                    font-size: 1.3em;
+                }
+                &.right {
+                    flex-direction: row-reverse;
+                    img {
+                        margin-right: 50px;
+                        margin-left: unset;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 1200px) {
-  main {
-      .testimonials {
-          .testimonial-item {
-              img {
-                  width: 500px;
-                  height: 286px;
-              }
-          }
-      }
-  }
+    main {
+        .testimonials {
+            .testimonial-item {
+                img {
+                    max-width: 500px;
+                    max-height: 286px;
+                }
+            }
+        }
+    }
 }
